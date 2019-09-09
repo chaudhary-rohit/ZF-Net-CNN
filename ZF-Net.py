@@ -122,42 +122,5 @@ def restore_model(sess, checkpoint_dir):
     saver = tf.train.Saver()
     saver.restore(sess, tf.train.latest_checkpoint(checkpoint_dir))
 
-    
-
-    
-    
-       
-    
-    
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
+# Architecture and Train functions are defined
+# Defining main function to create computation graph and training is to be done.
